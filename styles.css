@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Shadows+Into+Light&display=Shadows');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=Cookie');
+
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: url("./fonts/Pacifico-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    font-family: Shadows;
+    color: #777;
+}
+
+html, body{
+    margin:0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(235, 232, 232);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/headerBG.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.my-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Pacifico-Regular";
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+.my-name-large {
+    font-size: 7em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: Cookie;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 5em;
+}
+
+.pic-surrounded {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    padding: .25em 0;
+}
